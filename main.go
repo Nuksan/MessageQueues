@@ -31,7 +31,7 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("Flotilla daemon started on port %d...\n", *port)
+	fmt.Printf("Server daemon started on port %d...\n", *port)
 	if err := d.Start(*port); err != nil {
 		panic(err)
 	}
