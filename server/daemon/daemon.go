@@ -9,10 +9,10 @@ import (
 	"github.com/go-mangos/mangos"
 	"github.com/go-mangos/mangos/protocol/rep"
 	"github.com/go-mangos/mangos/transport/tcp"
-	"github.com/tylertreat/Flotilla/flotilla-server/daemon/broker/activemq"
-	"github.com/tylertreat/Flotilla/flotilla-server/daemon/broker/amqp"
-	"github.com/tylertreat/Flotilla/flotilla-server/daemon/broker/amqp/rabbitmq"
-	"github.com/tylertreat/Flotilla/flotilla-server/daemon/broker/kafka"
+	"github.com/Nuksan/MessageQueues/server/daemon/broker/activemq"
+	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp"
+	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp/rabbitmq"
+	"github.com/Nuksan/MessageQueues/server/daemon/broker/kafka"
 )
 
 type daemon string
