@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/tylertreat/Flotilla/flotilla-server/daemon"
+	"github.com/Nuksan/MessageQueues/server/daemon"
 )
 
 const defaultPort = 9500
