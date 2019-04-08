@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/go-mangos/mangos"
-	"github.com/go-mangos/mangos/protocol/rep"
-	"github.com/go-mangos/mangos/transport/tcp"
+	"github.com/nanomsg/mangos"
+	"github.com/nanomsg/mangos/protocol/rep"
+	"github.com/nanomsg/mangos/transport/tcp"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/activemq"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp/rabbitmq"
