@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nanomsg/mangos"
-	"github.com/nanomsg/mangos/protocol/rep"
+	"nanomsg.org/mangos"
+	"nanomsg.org/mangos/protocol/rep"
 	"github.com/nanomsg/mangos/transport/tcp"
-	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/activemq"
-	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp"
-	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp/rabbitmq"
-	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/kafka"
+	"MessageQueues/server/daemon/broker/activemq"
+	"MessageQueues/server/daemon/broker/amqp"
+	"MessageQueues/server/daemon/broker/amqp/rabbitmq"
+	"MessageQueues/server/daemon/broker/kafka"
 )
 
 type daemon string
