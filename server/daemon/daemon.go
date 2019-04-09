@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/nanomsg/mangos-v1"
-	"github.com/nanomsg/mangos-v1/protocol/rep"
-	//"github.com/nanomsg/mangos-v1/transport/tcp"
+	"github.com/nanomsg/mangos"
+	"github.com/nanomsg/mangos/protocol/rep"
+	"github.com/nanomsg/mangos/transport/tcp"
 	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/activemq"
 	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp"
 	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp/rabbitmq"
@@ -118,7 +118,7 @@ func NewDaemon(config *Config) (*Daemon, error) {
 	if err != nil {
 		return nil, err
 	}
-	//rep.AddTransport(tcp.NewTransport())
+	rep.AddTransport(tcp.NewTransport())
 	return &Daemon{rep, nil, []*publisher{}, []*subscriber{}, config}, nil
 }
 
