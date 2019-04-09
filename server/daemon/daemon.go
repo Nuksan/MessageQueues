@@ -7,7 +7,7 @@ import (
 	"log"
 
 	"github.com/nanomsg/mangos-v1"
-	//"github.com/nanomsg/mangos-v1/protocol/rep"
+	"github.com/nanomsg/mangos-v1/protocol/rep"
 	//"github.com/nanomsg/mangos-v1/transport/tcp"
 	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/activemq"
 	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp"
