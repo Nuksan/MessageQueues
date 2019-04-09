@@ -7,8 +7,8 @@ import (
 	"log"
 
 	"github.com/nanomsg/mangos-v1"
-	"github.com/nanomsg/mangos-v1/protocol/rep"
-	"github.com/nanomsg/mangos-v1/transport/tcp"
+	//"github.com/nanomsg/mangos-v1/protocol/rep"
+	//"github.com/nanomsg/mangos-v1/transport/tcp"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/activemq"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp"
 	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp/rabbitmq"
@@ -118,7 +118,7 @@ func NewDaemon(config *Config) (*Daemon, error) {
 	if err != nil {
 		return nil, err
 	}
-	rep.AddTransport(tcp.NewTransport())
+	//rep.AddTransport(tcp.NewTransport())
 	return &Daemon{rep, nil, []*publisher{}, []*subscriber{}, config}, nil
 }
 
