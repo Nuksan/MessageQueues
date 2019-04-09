@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/Nuksan/MessageQueues/server/daemon"
+	"MessageQueues/server/daemon"
 )
 
 const defaultPort = 9500
