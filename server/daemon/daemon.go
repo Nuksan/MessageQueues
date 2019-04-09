@@ -9,10 +9,10 @@ import (
 	"github.com/nanomsg/mangos-v1"
 	//"github.com/nanomsg/mangos-v1/protocol/rep"
 	//"github.com/nanomsg/mangos-v1/transport/tcp"
-	"github.com/Nuksan/MessageQueues/server/daemon/broker/activemq"
-	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp"
-	"github.com/Nuksan/MessageQueues/server/daemon/broker/amqp/rabbitmq"
-	"github.com/Nuksan/MessageQueues/server/daemon/broker/kafka"
+	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/activemq"
+	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp"
+	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/amqp/rabbitmq"
+	"github.com/tylertreat/flotilla/flotilla-server/daemon/broker/kafka"
 )
 
 type daemon string
