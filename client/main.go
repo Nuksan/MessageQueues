@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/olekukonko/tablewriter"
-	"github.com/Nuksan/MessageQueues/client/broker"
+	"tablewriter"
+	"MessageQueues/client/broker"
 )
 
 const (

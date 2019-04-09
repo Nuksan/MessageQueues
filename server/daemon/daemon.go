@@ -8,10 +8,10 @@ import (
 
 	"nanomsg.org/mangos"
 	"nanomsg.org/mangos/protocol/rep"
-	"github.com/nanomsg/mangos/transport/tcp"
+	"nanomsg.org/mangos/transport/tcp"
 	"MessageQueues/server/daemon/broker/activemq"
-	"MessageQueues/server/daemon/broker/amqp"
-	"MessageQueues/server/daemon/broker/amqp/rabbitmq"
+	"MessageQueues/server/daemon/broker/ampq"
+	"MessageQueues/server/daemon/broker/ampq/rabbitmq"
 	"MessageQueues/server/daemon/broker/kafka"
 )
 
